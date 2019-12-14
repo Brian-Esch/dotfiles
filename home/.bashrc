@@ -11,6 +11,9 @@ PS1='[\u@\h \W]\$ '
 alias ls='ls --color=auto'
 alias ll='ls -alh'
 
+# Command file
+export EDITOR=vim
+
 # These two commands add the homeshick command and the homeshick auto-completion
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 source "$HOME/.homesick/repos/homeshick/completions/homeshick-completion.bash"
