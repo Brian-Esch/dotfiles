@@ -1,3 +1,9 @@
 [submodule "nord-vim"]
 	path = nord-vim
 	url = git@github.com:arcticicestudio/nord-vim.git
+[submodule "nord-tmux"]
+	path = nord-tmux
+	url = git@github.com:arcticicestudio/nord-tmux.git
+[submodule "nord-xfce-terminal"]
+	path = nord-xfce-terminal
+	url = git@github.com:arcticicestudio/nord-xfce-terminal.git
