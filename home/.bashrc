@@ -5,7 +5,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-PS1='[\u@\h \W]\$ '
+# This sources the __git_ps1 for us
+source /usr/share/git/completion/git-prompt.sh
+export PS1='\[\033[01;32m\]\h\[\033[01;34m\] \w\[\033[31m\]$(__git_ps1 "(%s)") \[\033[01;34m\]$\[\033[00m\] '
 
 # COMMAND aliases
 alias ls='ls --color=auto'
